@@ -1,0 +1,33 @@
+
+
+                     (Caution :- Before you use this tool make sure your bluetooth adapter is working or not)
+                       
+         
+         Step 1 :- Start your bluetooth service (sudo systemctl start bluetooth).
+         
+         Step 2 :- Scan to find bluetooth devices (sudo hcitool -i hci1 scan). 
+         
+         Step 3 :- Run the script inside the noctraptor folder (sudo python3 silent_test.py  < Target device MAC address >).
+
+         Step 4 :- After the script runs wait for a while to capture the RAW audio packets for recording.
+         
+         Step 5 :- As per the users timimg (press ctrl c) to stop the tool. 
+         
+         Step 6 :- Run (ls) to find your saved recording.
+         
+         Step 7 :- Play the saved audio by running (aplay file_name.wav).
+         
+         
+                 (Note :- This tool will only work on bluetooth devices like :- speakers,earbuds,headphones,neckbands)
+                 
+                 
+                               (It will not work on android phones/iphones and smart watches)             
+                           
+                           
+          
+
+
+
+
+							       
+							      
